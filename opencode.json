@@ -1,0 +1,19 @@
+{
+    "$schema": "https://opencode.ai/config.json",
+
+    "provider": {
+        "deeperseeker": {
+            "npm": "@ai-sdk/openai-compatible",
+            "name": "dseeker",
+            "options": {
+                "baseURL": "http://localhost:4000/v1",
+                "apiKey": "dseeker"
+            },
+            "models": {
+                "v4.1flash": {
+                    "name": "DeepSeek v4.1 Flash"
+                }
+            }
+        }
+    }
+}
